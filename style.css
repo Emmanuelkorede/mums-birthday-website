@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    padding:  15px 20px;
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #221b0f 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero {
+    min-height: 100vh;
+    background-image: url('FreeVector-Background-With-Balloons.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Great Vibes', cursive;
+}
+
+.hero h2 {
+    font-size: 5rem;
+}
+
+.about {
+    background: radial-gradient(circle at center, #2a1e0b 0%, #000000 80%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.35);
+    margin-top: 30px;
+}
+
+h3 {
+    color: #D4AF37;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.about p {
+    color: #ffffff;
+    opacity: 0.85;
+    line-height: 1.6;
+}
+
+.reasons-section {
+    background: radial-gradient(circle at center, #2a1e0b 0%, #000000 80%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.35);
+    margin-top: 30px;
+}
+
+.reason-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.reason-card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #D4AF37;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.25);
+}
+
+.reason-card h4 {
+    color: #D4AF37;
+    margin-bottom: 10px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.8rem;
+    transition: transform 0.3s ease;
+}
+
+.reason-card p {
+    color: #ffffff;
+    opacity: 0.85;
+    line-height: 1.4;
+}
+
+.reason-card:hover {
+    transform: translateY(-10px);
+}
+
+.gallery {
+    background: radial-gradient(circle at center, #2a1e0b 0%, #000000 80%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.35);
+    margin-top: 30px;
+}
+
+.photos-section {
+    padding:  20px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.photo-card {
+    background: #000; 
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.15);
+}
+
+.photo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.45);
+}
+
+.photo-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.wishes {
+    background: radial-gradient(circle at center, #2a1e0b 0%, #000000 80%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.35);
+    margin-top: 30px;
+}
+.wishes p {
+    color: #ffffff;
+    opacity: 0.85;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.message {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #D4AF37; 
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.message:hover {
+    background-color: #bfa130;
+    transform: translateY(-10px);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    color: #D4AF37;
+    font-size: 1rem;
+}
