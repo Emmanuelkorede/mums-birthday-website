@@ -3,14 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'Poppins', sans-serif;
-    padding:  15px 20px;
     background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #221b0f 100%);
     display: flex;
     flex-direction: column;
-    gap: 20px;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
 }
 
 .hero {
@@ -27,6 +33,7 @@ body{
     padding: 0 20px;
     gap: 10px;
     border-radius: 15px;
+    margin-top: 20px;
 }
 
 .hero h1 {
@@ -38,6 +45,7 @@ body{
 .hero h2 {
     font-size: 5rem;
 }
+
 
 .about {
     background: radial-gradient(circle at center, #2a1e0b 0%, #000000 80%);
@@ -165,7 +173,7 @@ h3 {
 
 .message:hover {
     background-color: #bfa130;
-    transform: translateY(-10px);
+    transform: translateY(-3px);
 }
 
 footer {
